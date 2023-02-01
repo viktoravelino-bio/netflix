@@ -1,0 +1,56 @@
+.media_modal__container {
+  background-color: var(--clr-background);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  overflow: hidden;
+  color: white;
+  cursor: pointer;
+
+  padding-bottom: 1.5rem;
+}
+
+.media_modal__body_container {
+  padding-inline: 1rem;
+}
+
+.media_modal__action_buttons {
+  display: flex;
+  gap: 0.5rem;
+
+  padding-block: 1rem;
+}
+
+.media_modal__action_buttons > button > svg {
+  height: 12px !important;
+  width: 12px !important;
+}
+
+.media_modal__action_buttons :last-child {
+  margin-left: auto;
+}
+
+.media_modal__media_relevance {
+  color: rgb(20, 163, 20);
+  font-weight: bolder;
+  font-size: 0.875rem;
+}
+
+.media_modal__genres {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: var(--clr-text);
+}
+
+.media_modal__genres > span:not(:last-child)::after {
+  content: ' • ';
+  color: rgb(68, 68, 68);
+}
+
+.media_modal__media_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}

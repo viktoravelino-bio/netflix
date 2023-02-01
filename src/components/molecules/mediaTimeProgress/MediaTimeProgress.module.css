@@ -1,0 +1,47 @@
+.time_progress__container {
+  display: flex;
+  align-items: center;
+  padding-inline: 0.5rem;
+}
+
+.progress_bar__container {
+  flex: 1;
+  margin-inline: 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress_bar {
+  appearance: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  height: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.progress_bar::-webkit-slider-thumb {
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: white;
+}
+
+.progress_bar::-moz-range-progress {
+  background: white;
+}
+
+.progress_bar__progress {
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 0.1rem;
+  transform: translateY(-50%);
+  height: 10px;
+  border-radius: 20px;
+  pointer-events: none;
+}

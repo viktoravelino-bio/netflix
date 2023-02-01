@@ -1,0 +1,15 @@
+.icon_button {
+  background-color: transparent;
+  border: none;
+  padding: 0.375rem;
+  border-radius: 100%;
+  transition: background-color 0.2s;
+}
+
+.icon_button:hover {
+  cursor: pointer;
+}
+
+.icon_button[data-no-hover='false']:hover {
+  background-color: rgba(130, 130, 130, 0.4);
+}

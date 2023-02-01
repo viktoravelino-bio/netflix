@@ -1,0 +1,14 @@
+.rows__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: -7rem;
+  z-index: 100;
+  position: relative;
+  padding-top: 3rem;
+  background-image: linear-gradient(
+    0deg,
+    var(--clr-background) 93%,
+    transparent 100%
+  );
+}

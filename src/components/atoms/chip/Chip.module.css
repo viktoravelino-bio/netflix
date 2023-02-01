@@ -1,0 +1,14 @@
+.chip {
+  font-size: 0.75rem;
+  border: 1px solid rgb(123, 123, 123);
+  line-height: 1;
+  padding: 0.1rem 0.25rem;
+}
+
+.chip[data-size='sm'] {
+  font-size: 0.5rem;
+}
+
+.chip[data-rounded='true'] {
+  border-radius: 3px;
+}

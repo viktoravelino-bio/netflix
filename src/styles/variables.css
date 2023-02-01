@@ -1,0 +1,13 @@
+:root {
+  --clr-primary: #e50914;
+  --clr-black: #000;
+  --clr-white: #fff;
+  --clr-text-grey: #e5e5e5;
+  --clr-grey: #6d6d6e;
+  --clr-background: #141414;
+  --header-gradient: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 10%,
+    transparent
+  );
+}
